@@ -1,10 +1,10 @@
 var request = require("request");
 var apiOptions = {
-    server: "https://fccbarhopping.herokuapp.com/"
+    server: "https://fccbarhopping.herokuapp.com"
     //server: "http://localhost:3000" //when run in local host
 };
 if (process.env.NODE_ENV === "production")
-    apiOptions.server = "https://fccbarhopping.herokuapp.com/";
+    apiOptions.server = "https://fccbarhopping.herokuapp.com";
 
 global.cityInput; 
 var tmp = 0;
